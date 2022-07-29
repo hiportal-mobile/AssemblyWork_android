@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 요청자료 > 상태항목 
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.11
+	VERSION: 0.1
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="513dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_popup"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="@string/s_lb_state"
+        android:textColor="#333333"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lv_aw_05_popup_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#2b2b2b"
+        android:layout_marginTop="10dp"
+        android:dividerHeight="1dp">
+        
+    </ListView>
+
+</LinearLayout>

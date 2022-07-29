@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 의원요청등록 제목리스트 
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.10
+	VERSION: 0.1
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_layout_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_aw_11_list_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/s_unknown"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"
+        android:textColor="#111111" />
+
+    <TextView
+        android:id="@+id/tv_aw_11_list_req_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="8dp"
+        android:text="@string/s_unknown"
+         android:textSize="15sp"
+        android:textColor="#111111" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" >
+
+        <TextView
+            android:id="@+id/tv_aw_11_list_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/s_unknown"
+             android:textSize="15sp"
+        android:textColor="#111111" 
+        android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_aw_11_list_self_req"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/s_unknown"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/darkgrey" />
+    </LinearLayout>
+
+</LinearLayout>

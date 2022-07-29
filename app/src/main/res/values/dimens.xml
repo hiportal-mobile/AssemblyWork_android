@@ -1,0 +1,18 @@
+<resources>
+
+    <dimen name="tab_title">80dp</dimen>
+    <dimen name="tab_main_icon_width">150dp</dimen>
+        <dimen name="tab_pic_lay">180dp</dimen>
+    <dimen name="tab_main_icon_space">40dp</dimen>
+    <dimen name="tab_back_icon_width">100dp</dimen>
+    <dimen name="tab_back_icon_height">50dp</dimen>
+    <dimen name="tab_margin_left">20dp</dimen>
+    <dimen name="tab_top_icon">200dp</dimen>
+    <dimen name="tab_edit_size">300dp</dimen>
+    <dimen name="tab_margin_right">10dp</dimen>
+    <dimen name="tab_detail_search">400dp</dimen>
+	<dimen name="tab_pic_height">120dp</dimen>
+	<dimen name="tab_minHeight">60dp</dimen>
+	<dimen name="tab11_column_width">140dp</dimen>
+	
+</resources>

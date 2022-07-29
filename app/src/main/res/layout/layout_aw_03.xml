@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 국토해양위원회 > 의원상세
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.10
+	VERSION: 0.1
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    style="@style/style_layout_bg">
+
+    <!-- 타이틀바 -->
+    <FrameLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_top"
+        android:gravity="center|center_vertical" >
+
+        <Button
+            android:id="@+id/btn_aw_03_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/selector_btn_back" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_aw_03_titlebar"
+                style="@style/style_titlebar"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="@string/s_assembly_info" />
+        </LinearLayout>
+    </FrameLayout>
+ 
+     <!-- 타이틀바 -->
+
+    <!-- 의원기본정보 -->
+	
+	<LinearLayout
+	    android:id="@+id/LinearLayout4"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:background="@drawable/bg_con_bar_s2">
+
+	    <ImageView
+	        android:id="@+id/iv_aw_03_assem_pic"
+	        android:layout_width="72dp"
+       		android:layout_height="95dp"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginRight="15dip"
+	        android:layout_marginTop="15dip"
+	        android:layout_marginBottom="15dip"
+	        android:contentDescription="@string/s_unknown" />
+
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+
+	        <TextView
+	            android:id="@+id/tv_aw_03_assembly_name"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:textColor="#3377c3"
+	            android:paddingTop="10dip"
+	            android:textSize="20sp"
+	            android:textStyle="bold"
+	            />
+
+	        <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" 
+	            android:gravity="center_vertical"
+	            android:layout_marginTop="8dp">
+
+	            <TextView
+	                android:layout_width="50dip"
+	                android:layout_height="wrap_content"
+	                android:text="@string/s_party"
+	                android:textColor="#333333" 
+	                android:textSize="15sp"
+	                android:textStyle="bold"
+	                />
+
+	            <TextView
+	                android:id="@+id/tv_aw_03_part_name"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="8dip"
+	                android:text="@string/s_unknown"
+	                android:textColor="#333333" 
+	                android:textSize="15sp" />
+	        </LinearLayout>
+
+	       <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" 
+	            android:gravity="center_vertical"
+	            android:layout_marginTop="5dp">
+
+	            <TextView
+	                android:layout_width="50dip"
+	                android:layout_height="wrap_content"
+	                android:text="@string/s_region"
+	                android:textColor="#333333" 
+	                android:textSize="15sp"
+	                android:textStyle="bold" />
+
+	            <TextView
+	                android:id="@+id/tv_aw_03_region"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="8dip"
+	                android:text="@string/s_unknown"
+	                android:textColor="#333333" 
+	                android:textSize="15sp" />
+	        </LinearLayout>
+
+	        <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" 
+	            android:gravity="center_vertical"
+	            android:layout_marginTop="5dp">
+
+	            <TextView
+	                android:layout_width="50dip"
+	                android:layout_height="wrap_content"
+	                android:text="@string/s_birthday"
+	                android:textColor="#333333" 
+	                android:textSize="15sp"
+	                android:textStyle="bold" />
+
+	            <TextView
+	                android:id="@+id/tv_aw_03_birthday"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="8dip"
+	                android:text="@string/s_unknown"
+	                android:textColor="#333333" 
+	                android:textSize="15sp" />
+	        </LinearLayout>
+	    </LinearLayout>
+	</LinearLayout>
+
+	<!-- 상세리스트뷰 -->
+	<View 
+            android:layout_height="1dip"
+            android:layout_width="match_parent"
+            android:background="@color/list_divider"/>
+	
+    <LinearLayout
+        android:id="@+id/LinearLayout5"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="58"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/lv_aw_03_assem_dtl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="#b2b2b2"
+            android:dividerHeight=".5dp">
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

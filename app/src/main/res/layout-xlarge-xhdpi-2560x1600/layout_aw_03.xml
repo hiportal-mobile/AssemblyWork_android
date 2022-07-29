@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 국토해양위원회 > 의원상세
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.10
+	VERSION: 0.1-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    style="@style/style_layout_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 타이틀바 -->
+
+    <FrameLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_title"
+        android:background="@drawable/bg_top"
+        android:gravity="center|center_vertical" >
+
+        <Button
+            android:id="@+id/btn_aw_03_back"
+            android:layout_width="@dimen/tab_back_icon_width"
+            android:layout_height="@dimen/tab_back_icon_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/tab_margin_left"
+            android:background="@drawable/selector_btn_back" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_aw_03_titlebar"
+                style="@style/style_tab_titlebar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="@string/s_assembly_info" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- 타이틀바 -->
+
+
+    <!-- 의원기본정보 -->
+
+    <LinearLayout
+        android:id="@+id/LinearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/bg_con_bar_s2"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_aw_03_assem_pic"
+            android:layout_width="@dimen/tab_pic_height"
+            android:layout_height="@dimen/tab_main_icon_width"
+            android:layout_marginBottom="15dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="15dip"
+            android:contentDescription="@string/s_unknown" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="15dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_aw_03_assembly_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dip"
+                android:textColor="#3377c3"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/tab_tv_awgt_02_list_assembly_dtl_normal"
+                    android:layout_width="@dimen/tab_pic_height"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s_party"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_aw_03_part_name"
+                    style="@style/tab_tv_awgt_02_list_assembly_dtl_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="@string/s_unknown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/tab_tv_awgt_02_list_assembly_dtl_normal"
+                    android:layout_width="@dimen/tab_pic_height"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s_region"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_aw_03_region"
+                    style="@style/tab_tv_awgt_02_list_assembly_dtl_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="@string/s_unknown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/tab_tv_awgt_02_list_assembly_dtl_normal"
+                    android:layout_width="@dimen/tab_pic_height"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s_birthday"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_aw_03_birthday"
+                    style="@style/tab_tv_awgt_02_list_assembly_dtl_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="@string/s_unknown" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 상세리스트뷰 -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 주요경력 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height=".5dp"
+                android:background="#b2b2b2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:minHeight="@dimen/tab_title"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="10dip"
+                    android:contentDescription="@string/s_unknown"
+                    android:src="@drawable/assem_bg_dtl_list_icon" />
+
+                <TextView
+                    style="@style/tv_awgt_02_list_assembly_dtl"
+                    android:layout_width="@dimen/tab_pic_height"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/tab_margin_right"
+                    android:text="@string/s_career"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_aw_03_career"
+                    style="@style/tv_awgt_02_list_assembly_dtl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="@string/s_unknown" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height=".5dp"
+                android:background="#b2b2b2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/tab_title"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="10dip"
+                    android:contentDescription="@string/s_unknown"
+                    android:src="@drawable/assem_bg_dtl_list_icon" />
+
+                <TextView
+                    style="@style/tv_awgt_02_list_assembly_dtl"
+                    android:layout_width="@dimen/tab_pic_height"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/s_phone"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/ll_aw_03_phone"
+                    style="@style/tv_awgt_02_list_assembly_dtl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+            <!-- 의원회관 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height=".5dp"
+                android:background="#b2b2b2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:minHeight="@dimen/tab_title"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="10dip"
+                    android:contentDescription="@string/s_unknown"
+                    android:src="@drawable/assem_bg_dtl_list_icon" />
+
+                <TextView
+                    style="@style/tv_awgt_02_list_assembly_dtl"
+                    android:layout_width="@dimen/tab_pic_height"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/s_hall"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_aw_03_hall"
+                    style="@style/tv_awgt_02_list_assembly_dtl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:text="@string/s_unknown" />
+            </LinearLayout>
+
+            <!-- 보좌진 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height=".5dp"
+                android:background="#b2b2b2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="10dip"
+                    android:contentDescription="@string/s_unknown"
+                    android:src="@drawable/assem_bg_dtl_list_icon" />
+
+                <TextView
+                    style="@style/tv_awgt_02_list_assembly_dtl"
+                    android:layout_width="@dimen/tab_pic_height"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="10dip"
+                    android:text="@string/s_asside"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/aw_03_asideinfo"
+                    style="@style/tv_awgt_02_list_assembly_dtl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height=".5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#b2b2b2" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

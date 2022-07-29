@@ -1,0 +1,133 @@
+<!--
+	화면명: 작성자지정 > 세부항목팝업
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.15
+	VERSION: 0.1-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/tab_detail_search"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_popup"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/s_lb_add_request_dtl_content"
+        android:textColor="#333333"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        style="@style/style_layout_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:stretchColumns="1" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-1dp"
+            android:background="@drawable/line_box"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tv_aw_07_dtl_title"
+                style="@style/style_aw_17_title"
+                android:layout_width="@dimen/tab_pic_height"
+                android:layout_height="42dp"
+                android:gravity="center_vertical"
+                android:text="@string/s_lb_dtl_content" />
+
+            <EditText
+                android:id="@+id/et_aw_07_dtl"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_span="2"
+                android:background="@drawable/bg_inputbar_s2"
+                android:hint="내용을 입력하세요." />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_box"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tv_aw_07_user_title"
+                style="@style/style_aw_17_title"
+                android:layout_width="@dimen/tab_pic_height"
+                android:layout_height="42dp"
+                android:gravity="center_vertical"
+                android:text="담당자" />
+
+            <EditText
+                android:id="@+id/et_aw_07_user"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_inputbar_s2"
+                android:hint="담당자" />
+
+            <Button
+                android:id="@+id/btn_aw_07_search"
+                style="@style/style_button_text"
+                android:layout_width="70dp"
+                android:layout_height="@dimen/tab_main_icon_space"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/selector_btn_aw_large_9_patch"
+                android:text="@string/s_btn_search" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:gravity="center_vertical|center_horizontal" >
+
+                <Button
+                    android:id="@+id/btn_aw_07_cancel"
+                    style="@style/style_button_text"
+                    android:layout_width="@dimen/tab_back_icon_width"
+                    android:layout_height="@dimen/tab_main_icon_space"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/selector_btn_aw_large_7_patch"
+                    android:text="@string/s_btn_cancel" />
+
+                <Button
+                    android:id="@+id/btn_aw_07_reg"
+                    style="@style/style_button_text"
+                    android:layout_width="@dimen/tab_back_icon_width"
+                    android:layout_height="@dimen/tab_main_icon_space"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/selector_btn_aw_large_7_patch"
+                    android:text="@string/s_btn_reg" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

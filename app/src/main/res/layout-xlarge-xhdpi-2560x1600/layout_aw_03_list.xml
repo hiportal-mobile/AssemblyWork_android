@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 국토해양위원회 의원상세 리스트
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.11
+	VERSION: 0.1
+ -->
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" 
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:baselineAligned="true" 
+	android:gravity="center_vertical"
+	style="@style/style_layout_bg">
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="37dip"
+	    android:orientation="horizontal">
+
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginBottom="10dip"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginTop="10dip"
+	        android:contentDescription="@string/s_unknown"
+	        android:src="@drawable/assem_bg_dtl_list_icon" />
+
+	    <TextView
+	        android:id="@+id/tv_aw_03_list_title"
+	        android:layout_width="100dip"
+	        android:layout_height="match_parent"
+	        android:layout_marginLeft="15dip"
+	        android:text="@string/s_unknown"
+	        android:gravity="center_vertical"
+	        android:textSize="15sp"
+	        android:textColor="#333333"
+	        android:textStyle="bold"/>
+
+	    <TextView
+	        android:id="@+id/tv_aw_03_list_content"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_marginLeft="10dip"
+	        android:gravity="center_vertical"
+	        android:text="@string/s_unknown"
+	        android:textSize="15sp"
+	        android:textColor="#333333" />
+	</LinearLayout>
+
+</LinearLayout>

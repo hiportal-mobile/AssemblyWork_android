@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 세부항목 추가 리스트
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.05.17
+	VERSION: 0.1
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout1" 
+	android:layout_width="match_parent"
+	android:layout_height="@dimen/tab_title" 
+	android:orientation="vertical"
+	style="@style/style_layout_bg">
+	
+	
+	    <TextView 
+	        android:id="@+id/tv_aw_06_list_title"
+	        android:layout_width="match_parent" 
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="7dp" 
+	        android:layout_marginTop="7dp" 
+	        style="@style/style_aw_11_content"
+	        android:singleLine="true" />
+	
+	    <TextView  
+	        android:id="@+id/tv_aw_06_list_content"
+	        android:layout_width="match_parent" 
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="7dp" 
+	        style="@style/aw_05_list"
+	        android:singleLine="true"  />
+
+</LinearLayout>

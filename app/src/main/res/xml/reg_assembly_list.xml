@@ -1,0 +1,20 @@
+<mo>
+	<list>	
+		<record>		
+			<task_dist_main_uid/>
+			<main_seq_no/>
+		</record>
+	</list>
+	<list_result_count/>
+	<file_list>	
+		<record>		
+			<file_uuid/>
+			<file_savename/>
+			<file_name/>
+			<file_size/>
+		</record>
+	</file_list>
+	<file_list_result_count>1</file_list_result_count>
+	<result>1000</result>
+	<resultMessage>성공</resultMessage>
+</mo>

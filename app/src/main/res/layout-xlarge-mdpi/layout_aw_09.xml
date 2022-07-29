@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 작성자지정 > 재검토요청
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.15
+	VERSION: 0.1
+
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="511dp"
+    android:layout_height="217dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        style="@style/style_layout_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_popup"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/s_btn_reject_request"
+            android:textColor="#333333"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/line_box"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_aw_09_dtl_title"
+                    style="@style/style_aw_12_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/s_btn_reject_request" />
+
+                <EditText
+                    android:id="@+id/et_aw_09_dtl"
+                    android:layout_width="363dp"
+                    android:layout_height="44dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    style="@style/style_input_text"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_inputbar_s2"
+                    android:paddingLeft="10dp"
+                    android:hint="재검토요청 사유를 작성해 주세요." />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:gravity="center_horizontal" >
+
+                    <!-- 취소 -->
+
+                    <Button
+                        android:id="@+id/btn_aw_09_cancel"
+                        style="@style/style_button_text"
+                        android:layout_width="138dp"
+                        android:layout_height="54dp"
+                        android:background="@drawable/selector_btn_aw_large_7_patch"
+                        android:text="@string/s_btn_cancel" />
+                    <!-- 확인 -->
+
+                    <Button
+                        android:id="@+id/btn_aw_09_ok"
+                        style="@style/style_button_text"
+                        android:layout_width="138dp"
+                        android:layout_height="54dp"
+                        android:background="@drawable/selector_btn_aw_large_7_patch"
+                        android:paddingLeft="10dip"
+                        android:text="@string/s_btn_ok" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 국토해양위원회 의원상세
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.10
+	VERSION: 0.1
+
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/btn_aw_01_bg"
+    android:orientation="vertical" 
+    style="@style/style_layout_bg"
+    >"
+	
+	<!-- 타이틀바 -->
+    <FrameLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_top"
+        android:gravity="center|center_vertical" >
+        <LinearLayout
+            android:id="@+id/LinearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_aw_05_titlebar"
+                style="@style/style_titlebar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="@string/s_main_title" />
+        </LinearLayout>
+    </FrameLayout>
+    
+    <!-- 타이틀바 -->
+
+    <TableLayout
+        android:id="@+id/TableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:layout_gravity="center_vertical"
+        android:gravity="center_vertical" >
+
+        <TableRow android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/btn_aw_01_cngrssmn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_aw_01_cngrssmn" />
+
+            <Button
+                android:id="@+id/btn_aw_01_smart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/selector_btn_aw_01_smart" />
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal" 
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/btn_aw_01_request"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_aw_01_request" />
+
+            <Button
+                android:id="@+id/btn_aw_01_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginLeft="15dip"
+                android:background="@drawable/selector_btn_aw_01_search" />
+        </TableRow>
+        <TableRow android:gravity="center_horizontal" 
+            android:layout_marginTop="15dp"
+            android:visibility="gone">
+
+            <Button
+            android:id="@+id/btn_lev1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="국회(최석현)" 
+            />
+       <Button
+            android:id="@+id/btn_lev2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1차 (박준)" 
+            />
+        </TableRow>
+    </TableLayout>
+    
+</LinearLayout>

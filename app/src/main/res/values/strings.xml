@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">국회업무</string>
+    <string name="app_id">MOGP000024</string>
+    <string name="s_main_title">모바일 국회</string>
+    <string name="s_test_hint">TEST Hint </string>
+    <string name="s_party">정당 </string>
+    <string name="s_birthday">생일 </string>
+    <string name="s_region">지역구</string>
+
+    <!-- titlebar -->
+    <string name="s_commit_name">국토교통위원회</string>
+    <string name="s_request">자료요청현황</string>
+    <string name="s_smart_inspect">스마트국감</string>
+    <string name="s_search">자료검색</string>
+    <string name="s_assembly_info">의원상세</string>
+    <string name="s_reg_member">작성자지정</string>
+    <string name="s_reg_assembly">의원요청등록</string>
+
+    <!-- Button -->
+    <string name="s_btn_search">검색</string>
+    <string name="s_btn_reg">등록</string>
+    <string name="s_btn_ok">확인</string>
+    <string name="s_btn_cancel">취소</string>
+    <string name="s_btn_recon">재검토요청</string>
+    <string name="s_btn_addtitle">제목추가</string>
+    <string name="s_btn_filesearch">찾아보기</string>
+
+    <!-- label -->
+    <string name="s_lb_sdate">요청일</string>
+    <string name="s_lb_edate">제출기한</string>
+    <string name="s_lb_search_sdate">시작일</string>
+    <string name="s_lb_search_edate">종료일</string>
+    <string name="s_lb_part">정당</string>
+    <!-- Aw06 -->
+    <string name="s_lb_aide">보좌관</string>
+    <string name="s_lb_title">제목</string>
+    <string name="s_lb_reject_meno">재검토 요청사유</string>
+    <string name="s_lb_req_title">요청내용</string>
+    <string name="s_lb_reqselecteditem">선택한 요청항목</string>
+    <string name="s_lb_sub_content">세부항목</string>
+    <string name="s_btn_subadd">세부항목추가</string>
+    <string name="s_btn_reject_request">재검토요청</string>
+
+    <!-- Aw17 -->
+    <string name="s_lb_assemb">요청자</string>
+    <string name="s_lb_qa_assemb">질의의원</string>
+    <string name="s_lb_ir_assemb">지적의원</string>
+    <string name="s_lb_ip_bonnu">해당본부</string>
+    <string name="s_lb_ip_re_assemb">관련의원</string>
+    <string name="s_lb_request_dt">요청일</string>
+    <string name="s_lb_response_dt">취합일자</string>
+    <string name="s_lb_file">취합파일</string>
+    <string name="s_lb_resfile">답변서파일</string>
+    <string name="s_lb_attfile">첨부파일</string>
+    <string name="s_lb_admname">담당자</string>
+    <string name="s_lb_admtel">연락처</string>
+    <string name="s_lb_relpart">관련분야</string>
+    <string name="s_lb_sms">SMS발송</string>
+
+    <!-- spinner -->
+
+    <string name="s_arr_aw_05_request_search_gbn">검색구분</string>
+    <string name="s_arr_aw_05_request_gbn">요청항목</string>
+
+    <!-- Aw12 -->
+    <string name="s_lb_reqcontent">요청내용</string>
+    <string name="s_hm_network">서버 접속이 원활하지 않습니다. 잠시 후 다시 이용해 주십시오.</string>
+    <string name="s_hm_xml_parsing">xml 구조가 아닙니다.</string>
+    <string name="s_hm_xml_result">결과 값이 없습니다.</string>
+    
+    <string name="s_hm_xml_result_data">요청이 정상적으로 등록되지 않았습니다.</string>
+    
+    <string name="s_no_data">검색된 결과가 없습니다.</string>
+    <string name="s_runtime_error">Runtime error!</string>
+    
+    <string name="s_unknown"></string>
+    <string name="Test">test</string>
+
+</resources>

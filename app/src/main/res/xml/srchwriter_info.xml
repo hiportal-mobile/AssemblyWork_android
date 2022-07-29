@@ -1,0 +1,249 @@
+<mo>
+<primitive>null</primitive>
+<task_mas_uid>
+<![CDATA[ 5D66C6D824D79FB46533E9D7F3A0F00C ]]>
+</task_mas_uid>
+<mas_type_code>
+<![CDATA[ DR ]]>
+</mas_type_code>
+<assem_mbr_names>
+<![CDATA[ 김우남 ]]>
+</assem_mbr_names>
+<assem_aide_names>
+<![CDATA[ 박윤희 ]]>
+</assem_aide_names>
+<mas_bgn_date>
+<![CDATA[ 2013-03-22 ]]>
+</mas_bgn_date>
+<mas_end_date>
+<![CDATA[ 2013-04-30 ]]>
+</mas_end_date>
+<task_dist_main_uid>
+<![CDATA[ A12645590F0BA975E50C2B288B22E188 ]]>
+</task_dist_main_uid>
+<main_seq_no>
+<![CDATA[ 1 ]]>
+</main_seq_no>
+<main_no>
+<![CDATA[ 1 ]]>
+</main_no>
+<main_tit>
+<![CDATA[ 펭귄에 대한 조사(테스트) 111 ]]>
+</main_tit>
+<main_req_memo>
+<![CDATA[ 테스트 입니다. 펭귄 ㅋ1111 ]]>
+</main_req_memo>
+<main_rec_user_names>
+<![CDATA[ 박준,박준홍 ]]>
+</main_rec_user_names>
+<main_qst_yn>
+<![CDATA[ N ]]>
+</main_qst_yn>
+<main_sec_code>
+<![CDATA[ 010400 ]]>
+</main_sec_code>
+<list>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ 7BA71C2F77106637D3A0354A384EF05F ]]>
+</task_dist_sub_uid>
+<sub_tit>
+<![CDATA[ 저장되어라 ]]>
+</sub_tit>
+<sub_req_wrt_uid>
+<![CDATA[ MZ15HIFNL8ES63EMG8WAK8IBK5C34XRQ ]]>
+</sub_req_wrt_uid>
+<sub_req_wrt_name>
+<![CDATA[ 전천규 ]]>
+</sub_req_wrt_name>
+<sub_sec_code>
+<![CDATA[ 010400 ]]>
+</sub_sec_code>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ 552FE377BC44FFD847C3E35AA3F342E6 ]]>
+</task_dist_sub_uid>
+<sub_tit>
+<![CDATA[ 펭귄의 생태계에 대한 연구
+ 
+ 펭귄~ 테스트 ]]>
+</sub_tit>
+<sub_req_wrt_uid>
+<![CDATA[ BZ6IP11APM647X3SX1A3SWWWJJTH2TY9 ]]>
+</sub_req_wrt_uid>
+<sub_req_wrt_name>
+<![CDATA[ 김이정 ]]>
+</sub_req_wrt_name>
+<sub_sec_code>
+<![CDATA[ 010400 ]]>
+</sub_sec_code>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ B5E89D9D7C0D0A6A409B6239625AA244 ]]>
+</task_dist_sub_uid>
+<sub_tit>
+<![CDATA[ 펭귄의 생태계에 대한 연구
+ 
+ 펭귄~ 테스트 ]]>
+</sub_tit>
+<sub_req_wrt_uid>
+<![CDATA[ BZ6IP11APM647X3SX1A3SWWWJJTH2TY9 ]]>
+</sub_req_wrt_uid>
+<sub_req_wrt_name>
+<![CDATA[ 김이정 ]]>
+</sub_req_wrt_name>
+<sub_sec_code>
+<![CDATA[ 010400 ]]>
+</sub_sec_code>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ 08BE7C144D7EE914571E6126456DA8FA ]]>
+</task_dist_sub_uid>
+<sub_tit>
+<![CDATA[ 저장되어라 ]]>
+</sub_tit>
+<sub_req_wrt_uid>
+<![CDATA[ MZ15HIFNL8ES63EMG8WAK8IBK5C34XRQ ]]>
+</sub_req_wrt_uid>
+<sub_req_wrt_name>
+<![CDATA[ 전천규 ]]>
+</sub_req_wrt_name>
+<sub_sec_code>
+<![CDATA[ 010400 ]]>
+</sub_sec_code>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ B0446BE5D6A5B849EB10328DB7162879 ]]>
+</task_dist_sub_uid>
+<sub_tit>
+<![CDATA[ 펭귄의 먹이 연구
+ 
+ 다리는 몇개?
+ 
+ 테스트 ]]>
+</sub_tit>
+<sub_req_wrt_uid>
+<![CDATA[ THQLLBBUUQT1IFGFJ0B8ZSYUJZZSU0KI ]]>
+</sub_req_wrt_uid>
+<sub_req_wrt_name>
+<![CDATA[ 이오근 ]]>
+</sub_req_wrt_name>
+<sub_sec_code>
+<![CDATA[ 010400 ]]>
+</sub_sec_code>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ 74A9C2C5D2990F485C8C998413F0C5F5 ]]>
+</task_dist_sub_uid>
+<sub_tit>
+<![CDATA[ 저장되나?. ]]>
+</sub_tit>
+<sub_req_wrt_uid>
+<![CDATA[ THQLLBBUUQT1IFGFJ0B8ZSYUJZZSU0KI ]]>
+</sub_req_wrt_uid>
+<sub_req_wrt_name>
+<![CDATA[ 이오근 ]]>
+</sub_req_wrt_name>
+<sub_sec_code>
+<![CDATA[ 010400 ]]>
+</sub_sec_code>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ 94458B66D8AC88004FBE5C0C45D0FE8C ]]>
+</task_dist_sub_uid>
+<sub_tit>
+<![CDATA[ 펭귄의 생태계에 대한 연구
+ 
+ 펭귄~ 테스트 ]]>
+</sub_tit>
+<sub_req_wrt_uid>
+<![CDATA[ BZ6IP11APM647X3SX1A3SWWWJJTH2TY9 ]]>
+</sub_req_wrt_uid>
+<sub_req_wrt_name>
+<![CDATA[ 김이정 ]]>
+</sub_req_wrt_name>
+<sub_sec_code>
+<![CDATA[ 010400 ]]>
+</sub_sec_code>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ E8E927E08A53B0C510178A2011EE221A ]]>
+</task_dist_sub_uid>
+<sub_tit>
+<![CDATA[ 저장되나?. ]]>
+</sub_tit>
+<sub_req_wrt_uid>
+<![CDATA[ THQLLBBUUQT1IFGFJ0B8ZSYUJZZSU0KI ]]>
+</sub_req_wrt_uid>
+<sub_req_wrt_name>
+<![CDATA[ 이오근 ]]>
+</sub_req_wrt_name>
+<sub_sec_code>
+<![CDATA[ 010400 ]]>
+</sub_sec_code>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ FFB983BF61454796C844083ABC6D08F5 ]]>
+</task_dist_sub_uid>
+<sub_tit>
+<![CDATA[ 네네 ]]>
+</sub_tit>
+<sub_req_wrt_uid>
+<![CDATA[ 1675BD080C28ADCF0395 ]]>
+</sub_req_wrt_uid>
+<sub_req_wrt_name>
+<![CDATA[ 박지호 ]]>
+</sub_req_wrt_name>
+<sub_sec_code>
+<![CDATA[ 010400 ]]>
+</sub_sec_code>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ AFBC2CD6816ACF14E614E024B332E1D0 ]]>
+</task_dist_sub_uid>
+<sub_tit>
+<![CDATA[ 세부항목 1 ]]>
+</sub_tit>
+<sub_req_wrt_uid>
+<![CDATA[ 98S5SQT4EJNL1S30ECVD ]]>
+</sub_req_wrt_uid>
+<sub_req_wrt_name>
+<![CDATA[ 박준일 ]]>
+</sub_req_wrt_name>
+<sub_sec_code>
+<![CDATA[ 010400 ]]>
+</sub_sec_code>
+</record>
+</list>
+<list_record_count>10</list_record_count>
+<file_list>
+<record>
+<file_uuid>
+<![CDATA[ 6663C104C34DA818A2F8210D4660BFC6 ]]>
+</file_uuid>
+<file_name>
+<![CDATA[ Penguins.jpg ]]>
+</file_name>
+</record>
+<record>
+<file_uuid>
+<![CDATA[ 9ED83CE0342352C0DD8240F4A43C96E5 ]]>
+</file_uuid>
+<file_name>
+<![CDATA[ Jellyfish.jpg ]]>
+</file_name>
+</record>
+</file_list>
+<file_list_record_count>2</file_list_record_count>
+<result>1000</result>
+<resultMessage>실행 성공</resultMessage>
+</mo>

@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 의원요청등록
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.16
+	VERSION: 0.1
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_layout_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 타이틀바 -->
+
+    <FrameLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_top"
+        android:gravity="center|center_vertical" >
+
+        <Button
+            android:id="@+id/btn_11_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/selector_btn_back" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_aw_11_titlebar"
+                style="@style/style_titlebar"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="@string/s_reg_assembly" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- 타이틀바 -->
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="800dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/RelativeLayout1"
+        android:background="@drawable/bg_con_bar_s3"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tv_aw_11_request_part_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/s_lb_reqselecteditem"
+            android:textColor="#111111"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_aw_11_request_part"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/s_unknown"
+            android:textColor="#111111"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="980dp"
+        android:layout_below="@id/LinearLayout2" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1,3" >
+
+            <!-- DR -->
+
+            <TableRow
+                android:id="@+id/tableRow1_dr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-1dip"
+                android:background="@drawable/line_box" >
+
+                <!-- 요청자 -->
+
+                <TextView
+                    android:id="@+id/tv_aw_11_mbr_title"
+                    style="@style/style_aw_11_title"
+                    android:layout_width="163dp"
+                    android:layout_height="54dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/s_lb_assemb" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_span="3"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/et_aw_11_mbr"
+                        style="@style/style_aw_11_content"
+                        android:layout_width="0dp"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_inputbar_s2"
+                        android:hint="@string/s_lb_assemb"  />
+
+                    <Button
+                        android:id="@+id/btn_aw_11_search"
+                        style="@style/style_button_text"
+                        android:layout_width="98dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/selector_btn_aw_large_9_patch"
+                        android:text="@string/s_btn_search" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1_dr2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" 
+                android:layout_marginBottom="-1dip"
+                android:background="@drawable/line_box" >
+
+                <!-- 보좌관 -->
+
+                <TextView
+                    android:id="@+id/tv_aw_11_sup_title"
+                    style="@style/style_aw_11_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="54dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/s_lb_aide" />
+
+                <EditText
+                    android:id="@+id/et_aw_11_sup"
+                    style="@style/style_aw_11_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_span="3"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_inputbar_s2"
+                    android:hint="@string/s_lb_aide" />
+            </TableRow>
+            <!-- QR -->
+
+            <TableRow
+                android:id="@+id/tableRow1_qr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-1dip"
+                android:background="@drawable/line_box" >
+
+                <!-- 질의위원 -->
+
+                <TextView
+                    android:id="@+id/tv_aw_11_qr_mbr_title"
+                    style="@style/style_aw_11_title"
+                    android:layout_width="163dp"
+                    android:layout_height="54dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/s_lb_qa_assemb" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_span="3"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/et_aw_11_qr_mbr"
+                        style="@style/style_aw_11_content"
+                        android:layout_width="0dp"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_inputbar_s2"
+                        android:hint="@string/s_lb_assemb"
+                        android:maxLength="3" />
+
+                    <Button
+                        android:id="@+id/btn_aw_11_qr_search"
+                        style="@style/style_button_text"
+                        android:layout_width="98dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/selector_btn_aw_large_9_patch"
+                        android:text="@string/s_btn_search" />
+                </LinearLayout>
+            </TableRow>
+            <!-- IP -->
+
+            <TableRow
+                android:id="@+id/tableRow1_ip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-1dip"
+                android:background="@drawable/line_box" >
+
+                <!-- 본부 -->
+
+                <TextView
+                    android:id="@+id/tv_aw_11_ip_mbr_title"
+                    style="@style/style_aw_11_title"
+                    android:layout_width="163dp"
+                    android:layout_height="54dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/s_lb_ip_bonnu" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_span="3"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/et_aw_11_ip_mbr"
+                        style="@style/style_aw_11_content"
+                        android:layout_width="0dp"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_inputbar_s2"
+                        android:hint="@string/s_lb_assemb"
+                        android:singleLine="true" />
+
+                    <Button
+                        android:id="@+id/btn_aw_11_ip_search"
+                        style="@style/style_button_text"
+                        android:layout_width="98dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/selector_btn_aw_large_9_patch"
+                        android:text="@string/s_btn_search" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1_ip1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-1dip"
+                android:background="@drawable/line_box" >
+
+                <!-- 관련의원 -->
+
+                <TextView
+                    android:id="@+id/tv_aw_11_ip_sup_title"
+                    style="@style/style_aw_11_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="54dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/s_lb_ip_re_assemb" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_span="3"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/et_aw_11_ip_sup"
+                        style="@style/style_aw_11_content"
+                        android:layout_width="0dp"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_inputbar_s2"
+                        android:hint="@string/s_lb_ip_re_assemb"
+                        android:singleLine="true" />
+
+                    <Button
+                        android:id="@+id/btn_aw_11_ip_sup_search"
+                        style="@style/style_button_text"
+                        android:layout_width="98dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/selector_btn_aw_large_9_patch"
+                        android:text="@string/s_btn_search" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="-1dip"
+                android:background="@drawable/line_box" >
+
+                <!-- 요청일 -->
+
+                <TextView
+                    android:id="@+id/tv_aw_11_sdate_title"
+                    style="@style/style_aw_11_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="54dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/s_lb_sdate" />
+
+                <EditText
+                    android:id="@+id/et_aw_11_sdate"
+                    style="@style/style_aw_11_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/bg_inputbar_s2"
+                    android:focusable="false"
+                    android:hint="@string/s_unknown" />
+                <!-- 제출기한 -->
+
+                <TextView
+                    android:id="@+id/tv_aw_11_edate_title"
+                    style="@style/style_aw_11_title"
+                    android:layout_width="163dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/s_lb_edate" />
+
+                <EditText
+                    android:id="@+id/et_aw_11_edate"
+                    style="@style/style_aw_11_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_inputbar_s2"
+                    android:focusable="false"
+                    android:hint="@string/s_unknown" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" 
+				android:layout_marginBottom="-1dip"
+                android:background="@drawable/line_box" >
+
+                <!-- 첨부파일 -->
+
+                <TextView
+                    android:id="@+id/tv_aw_11_attfile_title"
+                    style="@style/style_aw_11_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:minHeight="54dp"
+                    android:text="@string/s_lb_attfile" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_span="3"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_aw_11_filesearch"
+                        style="@style/style_button_text"
+                        android:layout_width="138dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/selector_btn_aw_large_9_patch"
+                        android:text="@string/s_btn_filesearch" />
+
+                    <ListView
+                        android:id="@+id/lv_aw_11_attfile"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:divider="#ffffff"
+                        android:dividerHeight="0dp" >
+                    </ListView>
+                </LinearLayout>
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_con_bar_s4" />
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line_box" >
+
+                <!-- 제목 -->
+
+                <TextView
+                    android:id="@+id/tv_aw_11_title"
+                    style="@style/style_aw_11_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="54dp"
+                    android:layout_span="2"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/s_lb_title_req" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_span="2"
+                    android:background="#ebebeb"
+                    android:gravity="right|center_vertical" >
+
+                    <!-- 제목추가 -->
+
+                    <Button
+                        android:id="@+id/btn_aw_11_add"
+                        style="@style/style_button_text"
+                        android:layout_width="98dp"
+                        android:layout_height="44dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/selector_btn_aw_large_9_patch"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="@string/s_btn_add" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <!-- 요청내용 -->
+
+                <ListView
+                    android:id="@+id/lv_aw_11_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_span="4"
+                    android:layout_weight="1"
+                    android:divider="#b2b2b2"
+                    android:dividerHeight="1dp">
+                </ListView>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/LinearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_con_bar_s5"
+        android:gravity="center_vertical" >
+        
+
+        <!-- sms발송 -->
+
+        <CheckBox
+            android:id="@+id/ck_aw_11_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:button="@drawable/selector_chk_checkbtn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="25sp"
+            android:textColor="#111111"
+            android:layout_toRightOf="@id/ck_aw_11_sms"
+            android:text="@string/s_lb_sms" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_alignParentRight="true" >
+
+            <!-- 취소 -->
+
+            <Button
+                android:id="@+id/btn_aw_11_cancel"
+                style="@style/style_button_text"
+                android:layout_width="138dp"
+                android:layout_height="54dp"
+                android:background="@drawable/selector_btn_aw_large_7_patch"
+                android:text="@string/s_btn_cancel" />
+            <!-- 등록 -->
+
+            <Button
+                android:id="@+id/btn_aw_11_reg"
+                style="@style/style_button_text"
+                android:layout_width="138dp"
+                android:layout_height="54dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/selector_btn_aw_large_7_patch"
+                android:text="@string/s_btn_reg" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

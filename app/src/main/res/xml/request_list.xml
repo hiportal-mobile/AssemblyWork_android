@@ -1,0 +1,418 @@
+<mo>
+<list>
+<record>
+<seq>
+<![CDATA[ 1 ]]>
+</seq>
+<task_mas_uid>
+<![CDATA[ A2784018B3452F629D7D05E675962914 ]]>
+</task_mas_uid>
+<aams_task_mas_type_code>
+<![CDATA[ DR ]]>
+</aams_task_mas_type_code>
+<task_dist_main_uid>
+<![CDATA[ FE7D34EDD94282847FB824D0A05C20C0 ]]>
+</task_dist_main_uid>
+<main_tit>
+<![CDATA[ 국화에요 ]]>
+</main_tit>
+<assem_mbr_uids>
+<![CDATA[ 2B30843F51FDF7D1BDA811E78EFAD3CE ]]>
+</assem_mbr_uids>
+<assem_mbr_names>
+<![CDATA[ 강길부 ]]>
+</assem_mbr_names>
+<ex_center_uids>
+<![CDATA[ ]]>
+</ex_center_uids>
+<ex_center_names>
+<![CDATA[ ]]>
+</ex_center_names>
+<mas_bgn_date>
+<![CDATA[ 2013-03-27 ]]>
+</mas_bgn_date>
+<mas_end_date>
+<![CDATA[ 2013-03-31 ]]>
+</mas_end_date>
+<mas_stat_code>
+<![CDATA[ 01_DT ]]>
+</mas_stat_code>
+<mas_stat_name>
+<![CDATA[ 배부완료 ]]>
+</mas_stat_name>
+</record>
+<record>
+<seq>
+<![CDATA[ 2 ]]>
+</seq>
+<task_mas_uid>
+<![CDATA[ 46AE471C2A8240E77A44B383ACED9421 ]]>
+</task_mas_uid>
+<aams_task_mas_type_code>
+<![CDATA[ DR ]]>
+</aams_task_mas_type_code>
+<task_dist_main_uid>
+<![CDATA[ C34521E66C97BA0ADD8BD2B6BD7F3E7D ]]>
+</task_dist_main_uid>
+<main_tit>
+<![CDATA[ 저목입니다 ]]>
+</main_tit>
+<assem_mbr_uids>
+<![CDATA[ C53AC5980CEA96D6F53EA0C8A3C14637 ]]>
+</assem_mbr_uids>
+<assem_mbr_names>
+<![CDATA[ 홍문종 ]]>
+</assem_mbr_names>
+<ex_center_uids>
+<![CDATA[ ]]>
+</ex_center_uids>
+<ex_center_names>
+<![CDATA[ ]]>
+</ex_center_names>
+<mas_bgn_date>
+<![CDATA[ 2013-03-25 ]]>
+</mas_bgn_date>
+<mas_end_date>
+<![CDATA[ 2013-03-25 ]]>
+</mas_end_date>
+<mas_stat_code>
+<![CDATA[ 01_DT ]]>
+</mas_stat_code>
+<mas_stat_name>
+<![CDATA[ 배부완료 ]]>
+</mas_stat_name>
+</record>
+<record>
+<seq>
+<![CDATA[ 3 ]]>
+</seq>
+<task_mas_uid>
+<![CDATA[ AB78CB8AF21C6E7EE99D802D8FB230E9 ]]>
+</task_mas_uid>
+<aams_task_mas_type_code>
+<![CDATA[ DR ]]>
+</aams_task_mas_type_code>
+<task_dist_main_uid>
+<![CDATA[ 3003C1FD41F52EDC73FB840F5C73C620 ]]>
+</task_dist_main_uid>
+<main_tit>
+<![CDATA[ 자체질문 테스트 옹111 ]]>
+</main_tit>
+<assem_mbr_uids>
+<![CDATA[ B1A4EE6A77D5A3BD3666CE10B7C5560E ]]>
+</assem_mbr_uids>
+<assem_mbr_names>
+<![CDATA[ 강동원 ]]>
+</assem_mbr_names>
+<ex_center_uids>
+<![CDATA[ ]]>
+</ex_center_uids>
+<ex_center_names>
+<![CDATA[ ]]>
+</ex_center_names>
+<mas_bgn_date>
+<![CDATA[ 2013-03-25 ]]>
+</mas_bgn_date>
+<mas_end_date>
+<![CDATA[ 2013-04-21 ]]>
+</mas_end_date>
+<mas_stat_code>
+<![CDATA[ 01_DT ]]>
+</mas_stat_code>
+<mas_stat_name>
+<![CDATA[ 배부완료 ]]>
+</mas_stat_name>
+</record>
+<record>
+<seq>
+<![CDATA[ 4 ]]>
+</seq>
+<task_mas_uid>
+<![CDATA[ 6FCBA9AAC1BA6BAF1C2C8E6C224F9C1E ]]>
+</task_mas_uid>
+<aams_task_mas_type_code>
+<![CDATA[ DR ]]>
+</aams_task_mas_type_code>
+<task_dist_main_uid>
+<![CDATA[ C1A42B53EB5724CEAD060443BD62F60C ]]>
+</task_dist_main_uid>
+<main_tit>
+<![CDATA[ 제목입니다. ]]>
+</main_tit>
+<assem_mbr_uids>
+<![CDATA[ C53AC5980CEA96D6F53EA0C8A3C14637 ]]>
+</assem_mbr_uids>
+<assem_mbr_names>
+<![CDATA[ 홍문종 ]]>
+</assem_mbr_names>
+<ex_center_uids>
+<![CDATA[ ]]>
+</ex_center_uids>
+<ex_center_names>
+<![CDATA[ ]]>
+</ex_center_names>
+<mas_bgn_date>
+<![CDATA[ 2013-03-22 ]]>
+</mas_bgn_date>
+<mas_end_date>
+<![CDATA[ 2013-03-22 ]]>
+</mas_end_date>
+<mas_stat_code>
+<![CDATA[ 01_DT ]]>
+</mas_stat_code>
+<mas_stat_name>
+<![CDATA[ 배부완료 ]]>
+</mas_stat_name>
+</record>
+<record>
+<seq>
+<![CDATA[ 5 ]]>
+</seq>
+<task_mas_uid>
+<![CDATA[ E837F74E0FEE2533B4B5B0946C1B420A ]]>
+</task_mas_uid>
+<aams_task_mas_type_code>
+<![CDATA[ DR ]]>
+</aams_task_mas_type_code>
+<task_dist_main_uid>
+<![CDATA[ ]]>
+</task_dist_main_uid>
+<main_tit>
+<![CDATA[ ]]>
+</main_tit>
+<assem_mbr_uids>
+<![CDATA[ C53AC5980CEA96D6F53EA0C8A3C14637 ]]>
+</assem_mbr_uids>
+<assem_mbr_names>
+<![CDATA[ 홍문종 ]]>
+</assem_mbr_names>
+<ex_center_uids>
+<![CDATA[ ]]>
+</ex_center_uids>
+<ex_center_names>
+<![CDATA[ ]]>
+</ex_center_names>
+<mas_bgn_date>
+<![CDATA[ 2013-03-22 ]]>
+</mas_bgn_date>
+<mas_end_date>
+<![CDATA[ 2013-03-22 ]]>
+</mas_end_date>
+<mas_stat_code>
+<![CDATA[ 01_DT ]]>
+</mas_stat_code>
+<mas_stat_name>
+<![CDATA[ 배부완료 ]]>
+</mas_stat_name>
+</record>
+<record>
+<seq>
+<![CDATA[ 6 ]]>
+</seq>
+<task_mas_uid>
+<![CDATA[ D7E5CD996CF22200BF87D1070290B361 ]]>
+</task_mas_uid>
+<aams_task_mas_type_code>
+<![CDATA[ DR ]]>
+</aams_task_mas_type_code>
+<task_dist_main_uid>
+<![CDATA[ 54D1ADC37591D29AB0A1A32BF4407B64 ]]>
+</task_dist_main_uid>
+<main_tit>
+<![CDATA[ ㅅㄷㄴㅅ ]]>
+</main_tit>
+<assem_mbr_uids>
+<![CDATA[ C53AC5980CEA96D6F53EA0C8A3C14637 ]]>
+</assem_mbr_uids>
+<assem_mbr_names>
+<![CDATA[ 홍문종 ]]>
+</assem_mbr_names>
+<ex_center_uids>
+<![CDATA[ ]]>
+</ex_center_uids>
+<ex_center_names>
+<![CDATA[ ]]>
+</ex_center_names>
+<mas_bgn_date>
+<![CDATA[ 2013-03-22 ]]>
+</mas_bgn_date>
+<mas_end_date>
+<![CDATA[ 2013-05-22 ]]>
+</mas_end_date>
+<mas_stat_code>
+<![CDATA[ 01_DT ]]>
+</mas_stat_code>
+<mas_stat_name>
+<![CDATA[ 배부완료 ]]>
+</mas_stat_name>
+</record>
+<record>
+<seq>
+<![CDATA[ 7 ]]>
+</seq>
+<task_mas_uid>
+<![CDATA[ EB3A22CEAA23BE79456B7FC0A267B641 ]]>
+</task_mas_uid>
+<aams_task_mas_type_code>
+<![CDATA[ DR ]]>
+</aams_task_mas_type_code>
+<task_dist_main_uid>
+<![CDATA[ 3A29786FB3B6ACA0011EE7896EB23D8D ]]>
+</task_dist_main_uid>
+<main_tit>
+<![CDATA[ test ]]>
+</main_tit>
+<assem_mbr_uids>
+<![CDATA[ C53AC5980CEA96D6F53EA0C8A3C14637 ]]>
+</assem_mbr_uids>
+<assem_mbr_names>
+<![CDATA[ 홍문종 ]]>
+</assem_mbr_names>
+<ex_center_uids>
+<![CDATA[ ]]>
+</ex_center_uids>
+<ex_center_names>
+<![CDATA[ ]]>
+</ex_center_names>
+<mas_bgn_date>
+<![CDATA[ 2013-03-22 ]]>
+</mas_bgn_date>
+<mas_end_date>
+<![CDATA[ 2013-03-22 ]]>
+</mas_end_date>
+<mas_stat_code>
+<![CDATA[ 01_DT ]]>
+</mas_stat_code>
+<mas_stat_name>
+<![CDATA[ 배부완료 ]]>
+</mas_stat_name>
+</record>
+<record>
+<seq>
+<![CDATA[ 8 ]]>
+</seq>
+<task_mas_uid>
+<![CDATA[ 3535F7566196F5E94F5EE238FA548CA3 ]]>
+</task_mas_uid>
+<aams_task_mas_type_code>
+<![CDATA[ DR ]]>
+</aams_task_mas_type_code>
+<task_dist_main_uid>
+<![CDATA[ 6393D50D569730DBD67EC11E262D35FF ]]>
+</task_dist_main_uid>
+<main_tit>
+<![CDATA[ ㅅㄷㄴㅅ ]]>
+</main_tit>
+<assem_mbr_uids>
+<![CDATA[ C53AC5980CEA96D6F53EA0C8A3C14637 ]]>
+</assem_mbr_uids>
+<assem_mbr_names>
+<![CDATA[ 홍문종 ]]>
+</assem_mbr_names>
+<ex_center_uids>
+<![CDATA[ ]]>
+</ex_center_uids>
+<ex_center_names>
+<![CDATA[ ]]>
+</ex_center_names>
+<mas_bgn_date>
+<![CDATA[ 2013-03-22 ]]>
+</mas_bgn_date>
+<mas_end_date>
+<![CDATA[ 2013-06-22 ]]>
+</mas_end_date>
+<mas_stat_code>
+<![CDATA[ 01_DT ]]>
+</mas_stat_code>
+<mas_stat_name>
+<![CDATA[ 배부완료 ]]>
+</mas_stat_name>
+</record>
+<record>
+<seq>
+<![CDATA[ 9 ]]>
+</seq>
+<task_mas_uid>
+<![CDATA[ 5D66C6D824D79FB46533E9D7F3A0F00C ]]>
+</task_mas_uid>
+<aams_task_mas_type_code>
+<![CDATA[ DR ]]>
+</aams_task_mas_type_code>
+<task_dist_main_uid>
+<![CDATA[ A12645590F0BA975E50C2B288B22E188 ]]>
+</task_dist_main_uid>
+<main_tit>
+<![CDATA[ 펭귄에 대한 조사(테스트) 111 ]]>
+</main_tit>
+<assem_mbr_uids>
+<![CDATA[ B475926B038345C42709785A178B6197 ]]>
+</assem_mbr_uids>
+<assem_mbr_names>
+<![CDATA[ 김우남 ]]>
+</assem_mbr_names>
+<ex_center_uids>
+<![CDATA[ ]]>
+</ex_center_uids>
+<ex_center_names>
+<![CDATA[ ]]>
+</ex_center_names>
+<mas_bgn_date>
+<![CDATA[ 2013-03-22 ]]>
+</mas_bgn_date>
+<mas_end_date>
+<![CDATA[ 2013-04-30 ]]>
+</mas_end_date>
+<mas_stat_code>
+<![CDATA[ 01_DT ]]>
+</mas_stat_code>
+<mas_stat_name>
+<![CDATA[ 배부완료 ]]>
+</mas_stat_name>
+</record>
+<record>
+<seq>
+<![CDATA[ 10 ]]>
+</seq>
+<task_mas_uid>
+<![CDATA[ 58F05AC69F5C1A4CBA8277E4EAE1718A ]]>
+</task_mas_uid>
+<aams_task_mas_type_code>
+<![CDATA[ DR ]]>
+</aams_task_mas_type_code>
+<task_dist_main_uid>
+<![CDATA[ E4FBBA3D0614D4027EEE935E376147D6 ]]>
+</task_dist_main_uid>
+<main_tit>
+<![CDATA[ 제목2 ]]>
+</main_tit>
+<assem_mbr_uids>
+<![CDATA[ C53AC5980CEA96D6F53EA0C8A3C14637 ]]>
+</assem_mbr_uids>
+<assem_mbr_names>
+<![CDATA[ 홍문종 ]]>
+</assem_mbr_names>
+<ex_center_uids>
+<![CDATA[ ]]>
+</ex_center_uids>
+<ex_center_names>
+<![CDATA[ ]]>
+</ex_center_names>
+<mas_bgn_date>
+<![CDATA[ 2013-03-22 ]]>
+</mas_bgn_date>
+<mas_end_date>
+<![CDATA[ 2013-03-22 ]]>
+</mas_end_date>
+<mas_stat_code>
+<![CDATA[ 01_DT ]]>
+</mas_stat_code>
+<mas_stat_name>
+<![CDATA[ 배부완료 ]]>
+</mas_stat_name>
+</record>
+</list>
+<list_record_count>10</list_record_count>
+<total_count>578</total_count>
+<result>1000</result>
+<resultMessage>실행 성공</resultMessage>
+</mo>

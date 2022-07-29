@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 자료검색리스트 
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.17
+	VERSION: 0.1-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_layout_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <!-- 타이틀바 -->
+
+    <FrameLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_top"
+        android:gravity="center|center_vertical" >
+
+        <Button
+            android:id="@+id/btn_16_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dip"
+            android:background="@drawable/selector_btn_back" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_aw_16_titlebar"
+                style="@style/style_titlebar"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="@string/s_search" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- 검색 -->
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_con_bar_s5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/sp_aw_16_search"
+            android:layout_width="102dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/bg_selbar_s1"
+            android:gravity="left"
+            android:prompt="@string/s_arr_aw_05_request_search_gbn" />
+
+        <EditText
+            android:id="@+id/et_aw_16_search"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_inputbar_s2"
+            android:hint="@string/s_unknown"
+            android:singleLine="true"
+            android:textColor="#333333"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_aw_16_search"
+            style="@style/style_button_text"
+            android:layout_width="64dp"
+            android:layout_height="30dp"
+            android:background="@drawable/selector_btn_aw_large_9_patch"
+            android:text="@string/s_btn_search" />
+
+        <Button
+            android:id="@+id/btn_aw_16_search_dtl"
+            style="@style/style_button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/selector_btn_aw_large_9_patch"
+            android:text="@string/s_btn_dtl_search" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout04"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- 상단아이콘 -->
+
+        <LinearLayout
+            android:id="@+id/LinearLayout16"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- 요구자료 -->
+
+            <Button
+                android:id="@+id/btn_aw_16_dr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_bt_aw_05_dr" 
+                />
+            <!-- 질의답변 -->
+
+            <Button
+                android:id="@+id/btn_aw_16_qa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_bt_aw_05_qa" />
+            <!-- 서면답변 -->
+
+            <Button
+                android:id="@+id/btn_aw_16_wr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_bt_aw_05_wr" />
+            <!-- 국감결과 -->
+
+            <Button
+                android:id="@+id/btn_aw_16_ir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_bt_aw_05_ir" />
+
+            <Button
+                android:id="@+id/btn_aw_16_ip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_bt_aw_05_ip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout06"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ListView
+                android:id="@+id/lv_aw_16_request_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:divider="#b2b2b2"
+                android:dividerHeight=".5dp" >
+            </ListView>
+
+            <TextView
+                android:id="@+id/tv_empty"
+                style="@style/tv_empty_style"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/s_no_data"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height=".5dp"
+            android:background="#b2b2b2" />
+    </LinearLayout>
+
+</LinearLayout>

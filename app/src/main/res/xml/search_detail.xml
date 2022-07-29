@@ -1,0 +1,373 @@
+<mo>
+<assem_mbr_names>
+<![CDATA[ 김우남 ]]>
+</assem_mbr_names>
+<ex_center_names>
+<![CDATA[ ]]>
+</ex_center_names>
+<mas_bgn_date>
+<![CDATA[ 2013-03-22 ]]>
+</mas_bgn_date>
+<hist_ins_date>
+<![CDATA[ 2013-06-02]]>
+</hist_ins_date>
+
+<file_path>
+<![CDATA[ file_path]]>
+</file_path>
+<file_name>
+<![CDATA[ file_name]]>
+</file_name>
+
+
+<list>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ F4DAD9EC723DA2EC739D2EA54256FE36 ]]>
+</task_dist_sub_uid>
+<task_dist_main_uid>
+<![CDATA[ A12645590F0BA975E50C2B288B22E188 ]]>
+</task_dist_main_uid>
+<mrge_hist>
+<![CDATA[ N ]]>
+</mrge_hist>
+<main_sub_no>
+<![CDATA[ 1 ]]>
+</main_sub_no>
+<main_no_nbr>
+<![CDATA[ Y ]]>
+</main_no_nbr>
+<link_yn>
+<![CDATA[ N ]]>
+</link_yn>
+<no>
+<![CDATA[ 1 ]]>
+</no>
+<title>
+<![CDATA[ 펭귄에 대한 조사(테스트) 111 ]]>
+</title>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ 552FE377BC44FFD847C3E35AA3F342E6 ]]>
+</task_dist_sub_uid>
+<task_dist_main_uid>
+<![CDATA[ A12645590F0BA975E50C2B288B22E188 ]]>
+</task_dist_main_uid>
+<mrge_hist>
+<![CDATA[ N ]]>
+</mrge_hist>
+<main_sub_no> 
+<![CDATA[ 1-1 ]]>
+</main_sub_no>
+<main_no_nbr>
+<![CDATA[ N ]]>
+</main_no_nbr>
+<link_yn>
+<![CDATA[ Y ]]>
+</link_yn>
+<no>
+<![CDATA[ 1 ]]>
+</no>
+<title>
+<![CDATA[ 펭귄의 생태계에 대한 연구
+ 
+ 펭귄~ 테스트 ]]>
+</title>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ B5E89D9D7C0D0A6A409B6239625AA244 ]]>
+</task_dist_sub_uid>
+<task_dist_main_uid>
+<![CDATA[ A12645590F0BA975E50C2B288B22E188 ]]>
+</task_dist_main_uid>
+<mrge_hist>
+<![CDATA[ N ]]>
+</mrge_hist>
+<main_sub_no>
+<![CDATA[ 1-1 ]]>
+</main_sub_no>
+<main_no_nbr>
+<![CDATA[ N ]]>
+</main_no_nbr>
+<link_yn>
+<![CDATA[ Y ]]>
+</link_yn>
+<no>
+<![CDATA[ 1 ]]>
+</no>
+<title>
+<![CDATA[ 펭귄의 생태계에 대한 연구 펭귄~ 테스트 ]]>
+</title>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ 7BA71C2F77106637D3A0354A384EF05F ]]>
+</task_dist_sub_uid>
+<task_dist_main_uid>
+<![CDATA[ A12645590F0BA975E50C2B288B22E188 ]]>
+</task_dist_main_uid>
+<mrge_hist>
+<![CDATA[ N ]]>
+</mrge_hist>
+<main_sub_no>
+<![CDATA[ 1-1 ]]>
+</main_sub_no>
+<main_no_nbr>
+<![CDATA[ N ]]>
+</main_no_nbr>
+<link_yn>
+<![CDATA[ Y ]]>
+</link_yn>
+<no>
+<![CDATA[ 1 ]]>
+</no>
+<title>
+<![CDATA[ 저장되어라 ]]>
+</title>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ 08BE7C144D7EE914571E6126456DA8FA ]]>
+</task_dist_sub_uid>
+<task_dist_main_uid>
+<![CDATA[ A12645590F0BA975E50C2B288B22E188 ]]>
+</task_dist_main_uid>
+<mrge_hist>
+<![CDATA[ N ]]>
+</mrge_hist>
+<main_sub_no>
+<![CDATA[ 1-1 ]]>
+</main_sub_no>
+<main_no_nbr>
+<![CDATA[ N ]]>
+</main_no_nbr>
+<link_yn>
+<![CDATA[ Y ]]>
+</link_yn>
+<no>
+<![CDATA[ 1 ]]>
+</no>
+<title>
+<![CDATA[ 저장되어라 ]]>
+</title>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ B0446BE5D6A5B849EB10328DB7162879 ]]>
+</task_dist_sub_uid>
+<task_dist_main_uid>
+<![CDATA[ A12645590F0BA975E50C2B288B22E188 ]]>
+</task_dist_main_uid>
+<mrge_hist>
+<![CDATA[ N ]]>
+</mrge_hist>
+<main_sub_no>
+<![CDATA[ 1-2 ]]>
+</main_sub_no>
+<main_no_nbr>
+<![CDATA[ N ]]>
+</main_no_nbr>
+<link_yn>
+<![CDATA[ Y ]]>
+</link_yn>
+<no>
+<![CDATA[ 2 ]]>
+</no>
+<title>
+<![CDATA[ 펭귄의 먹이 연구
+ 
+ 다리는 몇개?
+ 
+ 테스트 ]]>
+</title>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ 94458B66D8AC88004FBE5C0C45D0FE8C ]]>
+</task_dist_sub_uid>
+<task_dist_main_uid>
+<![CDATA[ A12645590F0BA975E50C2B288B22E188 ]]>
+</task_dist_main_uid>
+<mrge_hist>
+<![CDATA[ N ]]>
+</mrge_hist>
+<main_sub_no>
+<![CDATA[ 1-2 ]]>
+</main_sub_no>
+<main_no_nbr>
+<![CDATA[ N ]]>
+</main_no_nbr>
+<link_yn>
+<![CDATA[ Y ]]>
+</link_yn>
+<no>
+<![CDATA[ 2 ]]>
+</no>
+<title>
+<![CDATA[ 펭귄의 생태계에 대한 연구 펭귄~ 테스트 ]]>
+</title>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ E8E927E08A53B0C510178A2011EE221A ]]>
+</task_dist_sub_uid>
+<task_dist_main_uid>
+<![CDATA[ A12645590F0BA975E50C2B288B22E188 ]]>
+</task_dist_main_uid>
+<mrge_hist>
+<![CDATA[ N ]]>
+</mrge_hist>
+<main_sub_no>
+<![CDATA[ 1-2 ]]>
+</main_sub_no>
+<main_no_nbr>
+<![CDATA[ N ]]>
+</main_no_nbr>
+<link_yn>
+<![CDATA[ Y ]]>
+</link_yn>
+<no>
+<![CDATA[ 2 ]]>
+</no>
+<title>
+<![CDATA[ 저장되나?. ]]>
+</title>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ 74A9C2C5D2990F485C8C998413F0C5F5 ]]>
+</task_dist_sub_uid>
+<task_dist_main_uid>
+<![CDATA[ A12645590F0BA975E50C2B288B22E188 ]]>
+</task_dist_main_uid>
+<mrge_hist>
+<![CDATA[ N ]]>
+</mrge_hist>
+<main_sub_no>
+<![CDATA[ 1-2 ]]>
+</main_sub_no>
+<main_no_nbr>
+<![CDATA[ N ]]>
+</main_no_nbr>
+<link_yn>
+<![CDATA[ Y ]]>
+</link_yn>
+<no>
+<![CDATA[ 2 ]]>
+</no>
+<title>
+<![CDATA[ 저장되나?. ]]>
+</title>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ FFB983BF61454796C844083ABC6D08F5 ]]>
+</task_dist_sub_uid>
+<task_dist_main_uid>
+<![CDATA[ A12645590F0BA975E50C2B288B22E188 ]]>
+</task_dist_main_uid>
+<mrge_hist>
+<![CDATA[ N ]]>
+</mrge_hist>
+<main_sub_no>
+<![CDATA[ 1-3 ]]>
+</main_sub_no>
+<main_no_nbr>
+<![CDATA[ N ]]>
+</main_no_nbr>
+<link_yn>
+<![CDATA[ Y ]]>
+</link_yn>
+<no>
+<![CDATA[ 3 ]]>
+</no>
+<title>
+<![CDATA[ 네네 ]]>
+</title>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ AFBC2CD6816ACF14E614E024B332E1D0 ]]>
+</task_dist_sub_uid>
+<task_dist_main_uid>
+<![CDATA[ A12645590F0BA975E50C2B288B22E188 ]]>
+</task_dist_main_uid>
+<mrge_hist>
+<![CDATA[ N ]]>
+</mrge_hist>
+<main_sub_no>
+<![CDATA[ 1-6 ]]>
+</main_sub_no>
+<main_no_nbr>
+<![CDATA[ N ]]>
+</main_no_nbr>
+<link_yn>
+<![CDATA[ Y ]]>
+</link_yn>
+<no>
+<![CDATA[ 6 ]]>
+</no>
+<title>
+<![CDATA[ 세부항목 1 ]]>
+</title>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ 65DB38FE9EFA93F16E5268262B8C30FD ]]>
+</task_dist_sub_uid>
+<task_dist_main_uid>
+<![CDATA[ CD1C140B6198FA8162D603C15444DDB0 ]]>
+</task_dist_main_uid>
+<mrge_hist>
+<![CDATA[ N ]]>
+</mrge_hist>
+<main_sub_no>
+<![CDATA[ 2 ]]>
+</main_sub_no>
+<main_no_nbr>
+<![CDATA[ Y ]]>
+</main_no_nbr>
+<link_yn>
+<![CDATA[ N ]]>
+</link_yn>
+<no>
+<![CDATA[ 2 ]]>
+</no>
+<title>
+<![CDATA[ 해파리에 대하여 조사하세요(테스트) ]]>
+</title>
+</record>
+<record>
+<task_dist_sub_uid>
+<![CDATA[ 6981741E6ACAD75B5C439307C72E06FF ]]>
+</task_dist_sub_uid>
+<task_dist_main_uid>
+<![CDATA[ CD1C140B6198FA8162D603C15444DDB0 ]]>
+</task_dist_main_uid>
+<mrge_hist>
+<![CDATA[ N ]]>
+</mrge_hist>
+<main_sub_no>
+<![CDATA[ 2-1 ]]>
+</main_sub_no>
+<main_no_nbr>
+<![CDATA[ N ]]>
+</main_no_nbr>
+<link_yn>
+<![CDATA[ Y ]]>
+</link_yn>
+<no>
+<![CDATA[ 1 ]]>
+</no>
+<title>
+<![CDATA[ 테스트 재검토요청
+ 테스트입니다. ]]>
+</title>
+</record>
+</list>
+<list_record_count>13</list_record_count>
+<result>1000</result>
+<resultMessage>실행 성공</resultMessage>
+</mo>

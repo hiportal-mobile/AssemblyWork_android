@@ -1,0 +1,52 @@
+<mo>
+<list>
+<record>
+<ord>
+<![CDATA[ 1 ]]>
+</ord>
+<mas_rec_no>
+<![CDATA[ DR130587 ]]>
+</mas_rec_no>
+<main_no>
+<![CDATA[ 1 ]]>
+</main_no>
+<sub_no>
+<![CDATA[ 0 ]]>
+</sub_no>
+<task_mas_uid>
+<![CDATA[ A2784018B3452F629D7D05E675962914 ]]>
+</task_mas_uid>
+<task_dist_main_uid>
+<![CDATA[ FE7D34EDD94282847FB824D0A05C20C0 ]]>
+</task_dist_main_uid>
+<task_dist_sub_uid>
+<![CDATA[ ]]>
+</task_dist_sub_uid>
+<assem_mbr_uids>
+<![CDATA[ 2B30843F51FDF7D1BDA811E78EFAD3CE ]]>
+</assem_mbr_uids>
+<assem_mbr_names>
+<![CDATA[ 강길부 ]]>
+</assem_mbr_names>
+<tit>
+<![CDATA[ 국화에요 ]]>
+</tit>
+<main_rec_user_names>
+<![CDATA[ 박준 ]]>
+</main_rec_user_names>
+<mas_bgn_date>
+<![CDATA[ 2013-03-27 ]]>
+</mas_bgn_date>
+<mas_end_date>
+<![CDATA[ 2013-03-31 ]]>
+</mas_end_date>
+<status>
+<![CDATA[ 배부완료(1차) ]]>
+</status>
+</record>
+</list>
+<list_record_count>1</list_record_count>
+<total_count>10</total_count>
+<result>1000</result>
+<resultMessage>성공</resultMessage>
+</mo>

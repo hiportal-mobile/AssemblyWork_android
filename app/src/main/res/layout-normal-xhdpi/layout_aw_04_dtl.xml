@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 스마트 국감 > 질의 답변 리스트 
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.06.18
+	VERSION: 0.1
+ -->
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    style="@style/style_layout_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 타이틀바 -->
+
+    <FrameLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_top"
+        android:gravity="center|center_vertical" >
+
+        <Button
+            android:id="@+id/btn_aw_04_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dip"
+            android:background="@drawable/selector_btn_back" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_aw_04_titlebar"
+                style="@style/style_titlebar"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="@string/s_smart_qna" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- 내용 -->
+
+    <LinearLayout
+        android:id="@+id/aw_04_layout_qna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="15dp" >
+
+        <LinearLayout
+            android:id="@+id/linearlayout_001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_con_bar_s2"
+            android:orientation="horizontal"
+            android:paddingLeft="7dp"
+            android:paddingTop="15dp" >
+
+            <ImageView
+                android:id="@+id/iv_assembly_photo"
+                android:layout_width="73dp"
+                android:layout_height="97dp"
+                android:contentDescription="의원사진" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_aw_04_dtl_mbrname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#3377c3"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_aw_04_dtl_part"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/btn_aw_04_dtl_seat"
+                    style="@style/style_button_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/selector_btn_aw_large_9_patch"
+                    android:text="의원선택" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_002"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp" >
+
+                <Button
+                    android:id="@+id/btn_aw_04_dtl_qa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="7dp"
+                    android:background="@drawable/selector_btn_aw_11_tab"
+                    android:text="질의답변"
+                    android:textColor="#111111"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_aw_04_dtl_other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_toRightOf="@id/btn_aw_04_dtl_qa"
+                    android:background="@drawable/selector_btn_aw_11_tab"
+                    android:text="@string/s_unknown"
+                    android:textColor="#111111"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_aw_04_dtl_list_open"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_toLeftOf="@id/btn_aw_04_dtl_list_close"
+                    android:background="@drawable/selector_btn_aw_10_list_open"
+                    android:text="@string/s_unknown" />
+
+                <Button
+                    android:id="@+id/btn_aw_04_dtl_list_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/selector_btn_aw_10_list_close"
+                    android:text="@string/s_unknown" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#b2b2b2" />
+
+            <ExpandableListView
+                android:id="@+id/elv_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:childDivider="#b2b2b2"
+                android:divider="#b2b2b2"
+                android:dividerHeight="1dp"
+                android:groupIndicator="@null" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#b2b2b2" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

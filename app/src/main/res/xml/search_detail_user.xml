@@ -1,0 +1,54 @@
+<mo>
+<re_user_name>
+<![CDATA[ 김이정 ]]>
+</re_user_name>
+<telephone_no>
+<![CDATA[ 868-322 ]]>
+</telephone_no>
+<sub_rel_fld_name_path>
+<![CDATA[아무 상관 없어~!!! 아무 관련 없는 분야 입니다. 아무 관련 없는 분야 입니다.아무 관련 없는 분야 입니다.아무 관련 없는 분야 입니다. ]]>
+</sub_rel_fld_name_path>
+<list>
+<record>
+<uuid>uuid01</uuid>
+<file_path>file_path01</file_path>
+<file_name>file_name01</file_name> 
+<cnt1_msg>cnt1_msg01</cnt1_msg> 
+<cnt2_msg>cnt2_msg01</cnt2_msg> 
+</record>
+<record>
+<uuid>uuid02</uuid>
+<file_path>file_path02</file_path>
+<file_name>file_name02</file_name> 
+<cnt1_msg>cnt1_msg02</cnt1_msg> 
+<cnt2_msg>cnt2_msg02</cnt2_msg> 
+</record>
+</list>
+<list_record_count>3</list_record_count>
+<list2>
+<record>
+<uuid>s_uuid01</uuid>
+<file_path>s_file_path01</file_path>
+<file_name>s_file_name01</file_name> 
+<cnt1_msg>s_cnt1_msg01</cnt1_msg> 
+<cnt2_msg>s_cnt2_msg01</cnt2_msg> 
+</record>
+<record>
+<uuid>s_uuid02</uuid>
+<file_path>s_file_path02</file_path>
+<file_name>s_file_name02</file_name> 
+<cnt1_msg>s_cnt1_msg02</cnt1_msg> 
+<cnt2_msg>s_cnt2_msg02</cnt2_msg> 
+</record>
+<record>
+<uuid>s_uuid03</uuid>
+<file_path>s_file_path03</file_path>
+<file_name>s_file_name03</file_name> 
+<cnt1_msg>s_cnt1_msg03</cnt1_msg> 
+<cnt2_msg>s_cnt2_msg03</cnt2_msg> 
+</record>
+</list2>
+<list2_record_count>3</list2_record_count>
+<result>1000</result>
+<resultMessage>실행 성공</resultMessage>
+</mo>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 자료요청 > 상세검색
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.10
+	VERSION: 0.1-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_layout_bg"
+    android:layout_width="@dimen/tab_detail_search"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_popup"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_back_icon_height"
+        android:layout_marginLeft="@dimen/tab_margin_left"
+        android:gravity="top"
+        android:text="@string/s_btn_dtl_search"
+        android:textColor="#333333"
+        android:layout_marginTop="5dp"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/tab_margin_right"
+        android:layout_marginRight="@dimen/tab_margin_right"
+        android:layout_marginTop="@dimen/tab_margin_right" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-1dp"
+            android:background="@drawable/line_box"
+            android:weightSum="3" >
+
+            <TextView
+                android:id="@+id/tv_aw_10_sdate_title"
+                style="@style/style_aw_12_title"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/tab_back_icon_height"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center"
+                android:text="@string/s_lb_search_sdate" />
+
+            <EditText
+                android:id="@+id/et_aw_10_sdate"
+                style="@style/style_input_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/tab_margin_right"
+                android:layout_marginRight="@dimen/tab_margin_right"
+                android:layout_weight="2"
+                android:background="@drawable/bg_inputbar_s2"
+                android:focusable="false"
+                android:paddingLeft="@dimen/tab_margin_right" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-1dp"
+            android:background="@drawable/line_box"
+            android:weightSum="3" >
+
+            <TextView
+                android:id="@+id/tv_aw_10_edate_title"
+                style="@style/style_aw_12_title"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/tab_back_icon_height"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center"
+                android:text="@string/s_lb_search_edate" />
+
+            <EditText
+                android:id="@+id/et_aw_10_edate"
+                style="@style/style_input_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/tab_margin_right"
+                android:layout_marginRight="@dimen/tab_margin_right"
+                android:layout_weight="2"
+                android:background="@drawable/bg_inputbar_s2"
+                android:focusable="false"
+                android:paddingLeft="@dimen/tab_margin_right" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_box"
+            android:weightSum="3" >
+
+            <TextView
+                android:id="@+id/tv_aw_10_part_title"
+                style="@style/style_aw_12_title"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/tab_back_icon_height"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center"
+                android:text="@string/s_lb_part" />
+
+            <Spinner
+                android:id="@+id/sp_aw_10_part"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/tab_back_icon_height"
+                android:layout_marginLeft="@dimen/tab_margin_right"
+                android:layout_marginRight="@dimen/tab_margin_right"
+                android:layout_weight="2"
+                android:background="@drawable/bg_selbar_s1"
+                android:paddingLeft="@dimen/tab_margin_right" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/tab_margin_left"
+        android:layout_marginTop="@dimen/tab_margin_left"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/btn_aw_10_cancel"
+            style="@style/style_button_text"
+            android:layout_width="@dimen/tab_back_icon_width"
+            android:layout_height="@dimen/tab_main_icon_space"
+            android:layout_marginRight="@dimen/tab_margin_left"
+            android:background="@drawable/selector_btn_aw_large_7_patch"
+            android:text="@string/s_btn_cancel" />
+
+        <Button
+            android:id="@+id/btn_aw_10_search"
+            style="@style/style_button_text"
+            android:layout_width="@dimen/tab_back_icon_width"
+            android:layout_height="@dimen/tab_main_icon_space"
+            android:background="@drawable/selector_btn_aw_large_7_patch"
+            android:text="@string/s_btn_search" />
+    </LinearLayout>
+
+</LinearLayout>

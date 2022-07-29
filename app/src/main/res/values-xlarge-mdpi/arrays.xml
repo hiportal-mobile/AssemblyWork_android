@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arr_aw_search">
+        <item>요청자</item>
+        <item>제목/내용</item>
+	</string-array>
+	
+    <string-array name="arr_aw_05_request_gbn">
+        <item>요구자료</item>
+        <item>질의답변</item>
+        <item>서면답변</item>
+        <item>국감결과</item>
+        <item>예상Q&amp;A</item>
+	</string-array>
+	
+</resources>

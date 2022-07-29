@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 자료요청 > 의원요청등록 > 담당자검색
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.18
+	VERSION: 0.1
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_layout_bg"
+    android:layout_width="336dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_popup"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/s_lb_search_user"
+        android:textColor="#333333"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/line_box"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/style_aw_17_title"
+            android:layout_width="71dp"
+            android:layout_height="41dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/s_lb_admname"
+            android:paddingLeft="4dp" />
+
+        <EditText
+            android:id="@+id/et_aw_14_search"
+            android:layout_width="0dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/bg_inputbar_s2"
+            android:hint="@string/s_unknown" />
+
+        <Button
+            android:id="@+id/btn_aw_14_search"
+            style="@style/style_button_text"
+            android:layout_width="70dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/selector_btn_aw_large_9_patch"
+            android:text="@string/s_btn_search" />
+    </LinearLayout>
+<View
+        android:layout_width="match_parent"
+        android:layout_height=".5dp"
+        android:background="#ebebeb" />
+    
+    <ListView
+        android:id="@+id/lv_aw_14_mbr"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:divider="#b2b2b2"
+        android:dividerHeight=".5dp" >
+    </ListView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".5dp"
+        android:background="#ebebeb" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp" >
+
+        <Button
+            android:id="@+id/btn_aw_14_cancel"
+            style="@style/style_button_text"
+            android:layout_width="76dp"
+            android:layout_height="31dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/selector_btn_aw_large_7_patch"
+            android:text="@string/s_btn_cancel" />
+
+        <Button
+            android:id="@+id/btn_aw_14_ok"
+            style="@style/style_button_text"
+            android:layout_width="76dp"
+            android:layout_height="31dp"
+            android:background="@drawable/selector_btn_aw_large_7_patch"
+            android:text="@string/s_btn_ok" />
+    </LinearLayout>
+
+</LinearLayout>

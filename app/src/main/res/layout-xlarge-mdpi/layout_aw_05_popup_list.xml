@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 자료요청 상태항목 리스트
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.05.16
+	VERSION: 0.1
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_layout_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="#333333"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp" >
+    </TextView>
+
+</LinearLayout>

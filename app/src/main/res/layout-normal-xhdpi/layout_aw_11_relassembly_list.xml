@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 자료요청 > 의원요청등록 > 질의 의원검색
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.19
+	VERSION: 0.1
+
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+    style="@style/style_layout_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_margin="5dp" >
+    
+
+    <ImageView
+        android:id="@+id/iv_aw_common_list_check_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:text="@string/s_unknown"
+        android:background="@drawable/checkbox_off" />
+    
+    <ImageView
+        android:id="@+id/iv_aw_common_list_check_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:text="@string/s_unknown"
+        android:background="@drawable/checkbox_on" />
+    
+	<TextView
+	    android:id="@+id/tv_aw_common_list_content"
+	    android:layout_width="fill_parent"
+	    android:layout_height="35dp"
+	    android:layout_marginLeft="10dp"
+	    android:gravity="center_vertical"
+	    android:textColor="#333333"
+            android:textSize="15sp" />
+
+</LinearLayout>

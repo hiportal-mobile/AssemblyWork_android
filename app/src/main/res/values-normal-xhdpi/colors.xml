@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="menu_title">#c8e2ea</color>
+    <color name="menu_data">#dfe5e6</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#FFCECECE</color>
+    <color name="darkgrey">#FF595959</color>
+    <color name="black">#FF000000</color>
+    <color name="title_blue">#FF0E85D6</color>
+    <color name="desc_blue">#FF4893F7</color>
+    <color name="list_divider">#b2b2b2</color>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 자료검색 > 자료검색 상세 > 제목항목 리스트
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.23
+	VERSION: 0.1
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+    style="@style/style_layout_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dip"
+    android:paddingBottom="5dip"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/tv_aw_17_list_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/style_aw_17_content" 
+        android:background="#FFFFFF"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"/>
+
+</LinearLayout>

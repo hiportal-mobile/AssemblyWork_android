@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 의원요청등록 > 제목팝업
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.15
+	VERSION: 0.1
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_layout_bg"
+    android:layout_width="436dip"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_popup"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:gravity="left|center_vertical"
+        android:text="@string/s_lb_add_request_content"
+        android:textColor="#333333"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_box"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_aw_12_title_txt"
+                style="@style/style_aw_12_title"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="@string/s_lb_title" />
+
+            <EditText
+                android:id="@+id/et_aw_12_title"
+                style="@style/style_input_text"
+                android:layout_width="0dip"
+                android:layout_height="41dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_inputbar_s2"
+                android:hint="@string/s_unknown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_box" >
+
+            <TextView
+                android:id="@+id/tv_aw_12_request_title"
+                style="@style/style_aw_12_title"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="@string/s_lb_reqcontent" />
+
+            <EditText
+                android:id="@+id/et_aw_12_request"
+                style="@style/style_input_text"
+                android:layout_width="fill_parent"
+                android:layout_height="41dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="7dp"
+                android:background="@drawable/bg_inputbar_s2"
+                android:hint="@string/s_unknown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_box" >
+
+            <!-- 담당자 -->
+
+            <TextView
+                android:id="@+id/tv_aw_12_mbr_title"
+                style="@style/style_aw_12_title"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="@string/s_lb_admname" />
+
+            <EditText
+                android:id="@+id/et_aw_12_mbr"
+                android:layout_width="0dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_inputbar_s2"
+                android:hint="@string/s_unknown" />
+
+            <!-- 검색 btn -->
+
+            <Button
+                android:id="@+id/btn_aw_12_search"
+                style="@style/style_button_text"
+                android:layout_width="71dp"
+                android:layout_height="41dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="7dp"
+                android:background="@drawable/selector_btn_aw_large_9_patch"
+                android:contentDescription="@string/s_btn_search"
+                android:text="@string/s_btn_search" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+         >
+
+        <!-- 자체질문여부 -->
+
+        <CheckBox
+            android:id="@+id/ck_aw_12_self_req"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:button="@drawable/selector_chk_checkbtn"
+            android:text=" 자체 질문 여부"
+            android:textColor="@color/darkgrey" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <!-- 취소 -->
+
+        <Button
+            android:id="@+id/btn_aw_12_cancel"
+            style="@style/style_button_text"
+            android:layout_width="100dp"
+            android:layout_height="41dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/selector_btn_aw_large_7_patch"
+            android:text="@string/s_btn_cancel" />
+        <!-- 확인 -->
+
+        <Button
+            android:id="@+id/btn_aw_12_reg"
+            style="@style/style_button_text"
+           android:layout_width="100dp"
+            android:layout_height="41dp"
+            android:background="@drawable/selector_btn_aw_large_7_patch"
+            android:text="@string/s_btn_reg" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 요청자료 > 상태항목 
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.11
+	VERSION: 0.1
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_layout_bg"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lv_aw_05_popup_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="0px">
+        
+    </ListView>
+
+</LinearLayout>

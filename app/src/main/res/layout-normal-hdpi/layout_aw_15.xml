@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 자료요청 > 의원요청등록 > 파일첨부
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.18
+	VERSION: 0.1
+
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_layout_bg"
+    android:layout_width="370dip"
+    android:layout_height="250dip"
+    android:orientation="vertical"
+    android:gravity="center_vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_aw_15_insertpic"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:src="@drawable/ic_launcher" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/et_aw_15_filename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="파일명 입력" />
+
+            <Button
+                android:id="@+id/btn_aw_15_filesearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_aw_11_filesearch" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_aw_15_cancel"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_btn_aw_com_cancel" />
+
+        <Button
+            android:id="@+id/btn_aw_15_ok"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_btn_aw_com_reg" />
+    </LinearLayout>
+
+</LinearLayout>

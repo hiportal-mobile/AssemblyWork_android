@@ -1,0 +1,63 @@
+<mo>
+<list>
+<record>
+<mbr_party_code>
+<![CDATA[ 01 ]]>
+</mbr_party_code>
+<mbr_party_name>
+<![CDATA[ 새누리당 ]]>
+</mbr_party_name>
+</record>
+<record>
+<mbr_party_code>
+<![CDATA[ 02 ]]>
+</mbr_party_code>
+<mbr_party_name>
+<![CDATA[ 민주통합당 ]]>
+</mbr_party_name>
+</record>
+<record>
+<mbr_party_code>
+<![CDATA[ 03 ]]>
+</mbr_party_code>
+<mbr_party_name>
+<![CDATA[ 통합진보당 ]]>
+</mbr_party_name>
+</record>
+<record>
+<mbr_party_code>
+<![CDATA[ 04 ]]>
+</mbr_party_code>
+<mbr_party_name>
+<![CDATA[ 선진통일당 ]]>
+</mbr_party_name>
+</record>
+<record>
+<mbr_party_code>
+<![CDATA[ 05 ]]>
+</mbr_party_code>
+<mbr_party_name>
+<![CDATA[ 무소속 ]]>
+</mbr_party_name>
+</record>
+<record>
+<mbr_party_code>
+<![CDATA[ 06 ]]>
+</mbr_party_code>
+<mbr_party_name>
+<![CDATA[ 예산정책처 ]]>
+</mbr_party_name>
+</record>
+<record>
+<mbr_party_code>
+<![CDATA[ 07 ]]>
+</mbr_party_code>
+<mbr_party_name>
+<![CDATA[ 입법조사처 ]]>
+</mbr_party_name>
+</record>
+</list>
+<list_record_count>7</list_record_count>
+<result>1000</result>
+<resultMessage>실행 성공</resultMessage>
+</mo>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 요청자료 리스트 세부
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.11
+	VERSION: 0.1-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+    style="@style/style_layout_bg"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tab_pic_height"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="5dp" >
+
+    <TextView
+        android:id="@+id/tv_aw_05_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:textColor="#333333"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tv_aw_05_list_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:textColor="#555555"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_aw_05_list_content_st"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:textColor="#555555"
+        android:textSize="18sp" />
+
+</LinearLayout>

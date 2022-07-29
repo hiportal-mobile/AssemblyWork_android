@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="dzerr_error_message">파일 변환이 실패했습니다.</string>
+	<!-- dzerr_image_downloading_list : 이미지 목록을 가져오지 못하였습니다. -->
+	<string name="dzerr_image_downloading_list">파일 변환이 실패했습니다.</string>
+	<!-- dzerr_image_downloading : 이미지 다운로드중 오류가 발생하였습니다. -->
+	<string name="dzerr_image_downloading">파일 변환이 실패했습니다.</string>
+	<!-- dzerr_no_pages : 페이지가 없습니다. -->
+	<string name="dzerr_no_pages">파일이 존재하지 않습니다.</string>
+	
+	<string name="dzmsg_image_downloading">이미지 다운로드 중입니다.</string>
+	<string name="dzmsg_attach_list">Page</string>
+	<string name="dzmsg_last_page">마지막입니다.</string>
+	<string name="dzmsg_first_page">처음입니다.</string>
+	<string name="dzmsg_select_page">이동할 페이지를 선택하세요.</string>
+	<string name="dzmsg_check_layer">변환할 레이어들을 선택하세요.</string>
+</resources>

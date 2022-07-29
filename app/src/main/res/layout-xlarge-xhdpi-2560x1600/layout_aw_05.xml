@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 자료요청리스트 
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.10
+	VERSION: 0.1
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_layout_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <!-- 타이틀바 -->
+
+    <FrameLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_title"
+        android:background="@drawable/bg_top"
+        android:gravity="center|center_vertical" >
+
+        <Button
+            android:id="@+id/btn_aw_05_back"
+            android:layout_width="@dimen/tab_back_icon_width"
+            android:layout_height="@dimen/tab_back_icon_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/tab_margin_left"
+            android:background="@drawable/selector_btn_back" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_aw_05_titlebar"
+                style="@style/style_tab_titlebar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="@string/s_request" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- 타이틀바 -->
+
+    <LinearLayout
+        android:id="@+id/LinearLayout041"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:background="#f0f0f0"        
+        android:orientation="vertical" >
+<!-- android:background="@drawable/bg_con_bar_s1" -->
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tab_margin_left"
+            android:gravity="center_vertical|center"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Spinner
+                android:id="@+id/sp_aw_05_search"
+                style="@style/tab_tv_awgt_02_list_assembly_dtl_normal"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/tab_back_icon_height"
+                android:layout_marginLeft="@dimen/tab_margin_left"
+                android:layout_marginRight="@dimen/tab_margin_right"
+                android:layout_weight="2"
+                android:background="@drawable/bg_selbar_s1"
+                android:gravity="left"
+                android:prompt="@string/s_arr_aw_05_request_search_gbn" />
+
+            <EditText
+                android:id="@+id/et_aw_05_search"
+                style="@style/style_spinner_main"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/tab_back_icon_height"
+                android:layout_marginRight="@dimen/tab_margin_left"
+                android:layout_weight="4"
+                android:background="@drawable/bg_inputbar_s2"
+                android:hint="@string/s_unknown"
+                android:singleLine="true"
+                 />
+
+            <Button
+                android:id="@+id/btn_aw_05_search"
+                style="@style/style_button_text"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/tab_back_icon_height"
+                android:layout_marginRight="@dimen/tab_margin_left"
+                android:layout_weight="1.5"
+                android:background="@drawable/selector_btn_aw_large_9_patch"
+                android:text="@string/s_btn_search" />
+
+            <Button
+                android:id="@+id/btn_aw_05_search_dtl"
+                style="@style/style_button_text"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/tab_back_icon_height"
+                android:layout_weight="2"
+                android:background="@drawable/selector_btn_aw_large_9_patch"
+                android:text="@string/s_btn_dtl_search" 
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/tab_margin_right"
+            android:layout_marginLeft="@dimen/tab_margin_left"
+            android:layout_marginTop="@dimen/tab_margin_right"
+            android:gravity="center_vertical" 
+            android:visibility="gone"
+            >
+
+            <Spinner
+                android:id="@+id/sp_aw_05_request"
+                style="@style/tab_tv_awgt_02_list_assembly_dtl_normal"
+                android:layout_width="197dp"
+                android:layout_height="@dimen/tab_back_icon_height"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/tab_margin_left"
+                android:background="@drawable/bg_selbar_s1"
+                android:gravity="left"
+                android:prompt="@string/s_arr_aw_05_request_gbn" />
+
+            <Button
+                android:id="@+id/btn_aw_05_request"
+                style="@style/style_button_text"
+                android:layout_width="@dimen/tab_pic_lay"
+                android:layout_height="@dimen/tab_back_icon_height"
+                android:layout_marginLeft="@dimen/tab_margin_left"
+                android:layout_toRightOf="@id/sp_aw_05_request"
+                android:background="@drawable/selector_btn_aw_large_9_patch"
+                android:text="@string/s_btn_assembly_req" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout04"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3" >
+
+            <!-- 요구자료 -->
+
+            <Button
+                android:id="@+id/btn_aw_05_dr"
+                android:layout_width="@dimen/tab_main_icon_width"
+                android:layout_height="@dimen/tab_pic_height"
+                android:layout_weight="1"
+                android:background="@drawable/selector_bt_aw_05_dr" />
+
+            <!-- 질의답변 -->
+
+            <Button
+                android:id="@+id/btn_aw_05_qa"
+                android:layout_width="@dimen/tab_main_icon_width"
+                android:layout_height="@dimen/tab_pic_height"
+                android:layout_weight="1"
+                android:background="@drawable/selector_bt_aw_05_qa" />
+            <!-- 서면답변 -->
+
+            <Button
+                android:id="@+id/btn_aw_05_wr"
+                android:layout_width="@dimen/tab_main_icon_width"
+                android:layout_height="@dimen/tab_pic_height"
+                android:layout_weight="1"
+                android:background="@drawable/selector_bt_aw_05_wr" />
+            <!-- 국감결과 -->
+
+            <Button
+                android:id="@+id/btn_aw_05_ir"
+                android:layout_width="@dimen/tab_main_icon_width"
+                android:layout_height="@dimen/tab_pic_height"
+                android:layout_weight="1"
+                android:background="@drawable/selector_bt_aw_05_ir" 
+                android:visibility="gone"
+                />
+
+            <Button
+                android:id="@+id/btn_aw_05_ip"
+                android:layout_width="@dimen/tab_main_icon_width"
+                android:layout_height="@dimen/tab_pic_height"
+                android:layout_weight="1"
+                android:background="@drawable/selector_bt_aw_05_ip" 
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_aw_05_request_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fadeScrollbars="true" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

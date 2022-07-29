@@ -1,0 +1,80 @@
+<mo>
+<list>
+<record>
+<assem_mbr_uid>
+<![CDATA[ C53AC5980CEA96D6F53EA0C8A3C14637 ]]>
+</assem_mbr_uid>
+<mbr_name>
+<![CDATA[ 홍문종 ]]>
+</mbr_name>
+<mbr_party_code>
+<![CDATA[ 01 ]]>
+</mbr_party_code>
+<mbr_party_name>
+<![CDATA[ 새누리당 ]]>
+</mbr_party_name>
+<mbr_commit_code>
+<![CDATA[ 01 ]]>
+</mbr_commit_code>
+<mbr_commit_name>
+<![CDATA[ 국토해양위원회 ]]>
+</mbr_commit_name>
+<mbr_region>
+<![CDATA[ 경기 의정부을 ]]>
+</mbr_region>
+<mbr_email>
+<![CDATA[ ]]>
+</mbr_email>
+<mbr_tel>
+<![CDATA[ ]]>
+</mbr_tel>
+<mbr_info_url>
+<![CDATA[
+http://www.assembly.go.kr/renew10/mem/mem/pop_about_list.jsp?memCode=YW8CWaAHbo2XQuvhl7lRA5YjdbEIb59G
+]]>
+</mbr_info_url>
+<mbr_home_url>
+<![CDATA[ ]]>
+</mbr_home_url>
+<mbr_use_yn>
+<![CDATA[ Y ]]>
+</mbr_use_yn>
+<mbr_ins_user_uid>
+<![CDATA[ FCD7D29EE7F6E64F914FD2327D5B8E2C ]]>
+</mbr_ins_user_uid>
+<mbr_ins_date>
+<![CDATA[ 2012-07-19 ]]>
+</mbr_ins_date>
+<mbr_upd_user_uid>
+<![CDATA[ 7251E23B2A90501F21E51C954E21B876 ]]>
+</mbr_upd_user_uid>
+<mbr_upd_date>
+<![CDATA[ 2012-09-27 ]]>
+</mbr_upd_date>
+<mbr_file_name>
+<![CDATA[ 홍문종.jpg ]]>
+</mbr_file_name>
+<mbr_file_savename>
+<![CDATA[ 20120814142306.743.4.0 ]]>
+</mbr_file_savename>
+<mbr_file_src>
+<![CDATA[
+/ServletController?AIR_ACTION=SYS_ATTACHMENT&AIR_MODE=FILE_SRC&type_code=AAMS/MOP&file_savename=20120814142306.743.4.0
+]]>
+</mbr_file_src>
+<file_src>
+<![CDATA[
+/ServletController?AIR_ACTION=SYS_ATTACHMENT&AIR_MODE=FILE_SRC&type_code=AAMS/MOP&file_savename=20120814142306.743.4.0
+]]>
+</file_src>
+<photo_url>
+<![CDATA[
+172.6.16.61:8091/ServletController?AIR_ACTION=SYS_ATTACHMENT&AIR_MODE=FILE_SRC&type_code=AAMS/MOP&file_savename=20120814142306.743.4.0
+]]>
+</photo_url>
+</record>
+</list>
+<list_record_count>1</list_record_count>
+<result>1000</result>
+<resultMessage>실행 성공</resultMessage>
+</mo>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 자료요청 > 의원요청등록 > 요청자검색
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.18
+	VERSION: 0.1
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dip"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/style_layout_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+			<TextView 
+			    android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="의원검색 : "
+                style="@style/style_aw_17_title"/>"
+            <EditText
+                android:id="@+id/et_aw_13_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:background="@drawable/input_297x44"
+                android:hint="@string/s_unknown" />
+
+            <Button
+                android:id="@+id/btn_aw_13_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_aw_05_search" />
+        </LinearLayout>
+ 
+        <ListView
+            android:id="@+id/lv_aw_13_mbr"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/btn_aw_13_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_aw_com_pop_cancel" />
+
+            <Button
+                android:id="@+id/btn_aw_13_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_aw_com_pop_ok" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

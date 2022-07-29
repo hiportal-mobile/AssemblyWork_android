@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	화면명: 자료요청 > 의원요청등록 > 요청자검색
+	작성자: 방종희
+	DESC: 
+	DATE: 2013.04.18
+	VERSION: 0.1
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_layout_bg"
+    android:layout_width="336dip"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_popup"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/s_lb_search_assembly"
+        android:textColor="#333333"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lv_aw_13_mbr"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:divider="#ebebeb"
+        android:dividerHeight=".5dp" >
+    </ListView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".5dp"
+        android:background="#ebebeb" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/btn_aw_13_cancel"
+            style="@style/style_button_text"
+            android:layout_width="76dp"
+            android:layout_height="31dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/selector_btn_aw_large_7_patch"
+            android:text="@string/s_btn_cancel" />
+
+        <Button
+            android:id="@+id/btn_aw_13_ok"
+            style="@style/style_button_text"
+            android:layout_width="76dp"
+            android:layout_height="31dp"
+            android:background="@drawable/selector_btn_aw_large_7_patch"
+            android:text="@string/s_btn_ok" />
+    </LinearLayout>
+
+</LinearLayout>
